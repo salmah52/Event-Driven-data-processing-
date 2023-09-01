@@ -30,7 +30,7 @@ The architecture consists of several components:
 - Workflow
 
 1. Permissions and IAM RolesStep
-2.  Create an AWS Lambda Function
+2. Create an AWS Lambda Function
 3.  Create an Amazon SNS Topic
 4.  Create an Amazon SQS Queue
 5.  Create an Amazon EventBridge Rule Configure Amazon EventBridge Rule Target
