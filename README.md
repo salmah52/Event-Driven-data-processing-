@@ -26,3 +26,14 @@ Amazon SNS Topic: When the EventBridge Rule detects a new file, it triggers an e
 Amazon SQS Queue: The SNS Topic is connected to an Amazon SQS (Simple Queue Service) Queue. The SQS Queue acts as a buffer to store the events (messages) until they are processed by your Lambda functions.
 
 AWS Lambda Function: You write one or more Lambda functions that are triggered by the SQS Queue. These Lambda functions process the files or perform the necessary transformations and load the data into your desired data target, such as a database or another storage service.
+
+Step 1: Permissions and IAM RolesStep 1: Create an AWS Lambda Function
+Step 2: Create an Amazon SNS Topic
+Step 3: Create an Amazon SQS Queue
+Step 4: Create an Amazon EventBridge Rule
+Step 5: Configure Amazon EventBridge Rule Target
+Step 6: Subscribe SNS Topic to SQS Queue
+Step 7: Permissions and IAM Roles
+Step 8: Test the Workflow
+
+
