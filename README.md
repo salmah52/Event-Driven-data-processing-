@@ -27,14 +27,16 @@ The architecture consists of several components:
 
 - AWS Lambda Function: You write one or more Lambda functions that are triggered by the SQS Queue. These Lambda functions process the files or perform the necessary transformations and load the data into your desired data target, such as a database or another storage service.
 
-Step 1: Permissions and IAM RolesStep 1: Create an AWS Lambda Function
-Step 2: Create an Amazon SNS Topic
-Step 3: Create an Amazon SQS Queue
-Step 4: Create an Amazon EventBridge Rule
-Step 5: Configure Amazon EventBridge Rule Target
-Step 6: Subscribe SNS Topic to SQS Queue
-Step 7: Permissions and IAM Roles
-Step 8: Test the Workflow
+- Workflow
+
+1. Permissions and IAM RolesStep
+2.  Create an AWS Lambda Function
+3.  Create an Amazon SNS Topic
+4.  Create an Amazon SQS Queue
+5.  Create an Amazon EventBridge Rule Configure Amazon EventBridge Rule Target
+6.   Subscribe SNS Topic to SQS Queue
+7.   Permissions and IAM Roles
+8.   Test
 
 ## Next Steps:
 Depending on your specific use case and requirements, you can consider further enhancements to the project, such as:
