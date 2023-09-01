@@ -51,3 +51,5 @@ Depending on your specific use case and requirements, you can consider further e
 ## Conclusion
 This project provides a foundation for building robust event-driven data processing pipelines on AWS, demonstrating how AWS Lambda, SNS, and SQS can be utilized to efficiently process files arriving in an S3 bucket while ensuring scalability and flexibility.
 
+*Happy data engineering!*
+
