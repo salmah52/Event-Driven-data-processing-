@@ -48,6 +48,6 @@ Depending on your specific use case and requirements, you can consider further e
 - Integrating with downstream systems to deliver processed data.
 -Implementing more advanced event-driven architectures using AWS services like AWS Step Functions or Amazon EventBridge.
 
-
-In conclusion, this project provides a foundation for building robust event-driven data processing pipelines on AWS, demonstrating how AWS Lambda, SNS, and SQS can be utilized to efficiently process files arriving in an S3 bucket while ensuring scalability and flexibility.
+## Conclusion
+This project provides a foundation for building robust event-driven data processing pipelines on AWS, demonstrating how AWS Lambda, SNS, and SQS can be utilized to efficiently process files arriving in an S3 bucket while ensuring scalability and flexibility.
 
