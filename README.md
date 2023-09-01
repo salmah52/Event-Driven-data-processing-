@@ -29,7 +29,7 @@ The architecture consists of several components:
 
   
 
-- Workflow
+## Workflow
 
 1. Permissions and IAM RolesStep
 2. Create an AWS Lambda Function
