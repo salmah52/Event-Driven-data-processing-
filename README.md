@@ -27,6 +27,8 @@ The architecture consists of several components:
 
 - AWS Lambda Function: You write one or more Lambda functions that are triggered by the SQS Queue. These Lambda functions process the files or perform the necessary transformations and load the data into your desired data target, such as a database or another storage service.
 
+  
+
 - Workflow
 
 1. Permissions and IAM RolesStep
